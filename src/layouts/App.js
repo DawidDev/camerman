@@ -2,12 +2,17 @@ import Footer from './Footer';
 import Navigation from './Navigation';
 
 import '../style/App.css';
+import Content from './Content'
+
+import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom'
 
 const App = () => {
   return ( 
     <>
-    <Navigation />
-    <Footer />
+     <Router>
+       <Navigation />
+       <Content/>
+     </Router>
     </>
    );
 }
