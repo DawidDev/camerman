@@ -22,7 +22,7 @@ const MainContainer = styled.div`
         position: absolute;
         top: 0; left: 0;
         width: 100%; height: 100%;
-        background-color: #181818;;
+        background-color: #181818;
         opacity: ${({ typeBackground }) => (typeBackground === "contact" ? `0.5` : `1`)};
     }
 
