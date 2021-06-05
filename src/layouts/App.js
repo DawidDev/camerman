@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import '../style/App.css';
 import Content from './Content'
 
-import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 const App = () => {
   return ( 

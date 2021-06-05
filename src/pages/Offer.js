@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Offer = () => {
+import Jumbutron from '../components/HomePage/Jumbutron'
+
+const Offer = ({type}) => {
     return ( 
         <>
-        Renderuje ofertę i cenę 
+            <Jumbutron type="offerPage" />
         </>
      );
 }

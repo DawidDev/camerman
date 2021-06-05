@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 const Ul = styled.ul`
@@ -9,10 +9,16 @@ list-style: none;
 display: flex;
 flex-flow: row nowrap;
 align-items: center;
+color: #fff;
 
 li {
     font-size: 17px;
     margin-left: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 button {
@@ -52,7 +58,6 @@ button {
 `
 
 const RightNav = ({open}) => {
-    console.log(open)
     return ( 
             <Ul open={open}>
                <li><NavLink to="/" exact={true}>Home</NavLink></li>

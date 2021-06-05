@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 const NavigationBlock = styled.div`
     width: 100%;
+    position: fixed;
+    z-index: 10;
 `
 
 const Navigation = () => {

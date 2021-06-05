@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom'
+import styled from 'styled-components';
 
 import Home from '../pages/Home'
 import Offer from '../pages/Offer'
