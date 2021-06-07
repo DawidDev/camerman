@@ -6,3 +6,24 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Style for swiper component */
+
+.swiper-container {
+  padding-bottom: 30px !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #9c0189 !important;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #9c0189 !important;
+}
+

@@ -1,6 +1,8 @@
 import Footer from './Footer';
 import Navigation from './Navigation';
 
+import styled from 'styled-components';
+
 import '../style/App.css';
 import Content from './Content'
 
