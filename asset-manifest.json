@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cameraman/static/css/main.7cf0670a.chunk.css",
-    "main.js": "/cameraman/static/js/main.bbf3c2e2.chunk.js",
-    "main.js.map": "/cameraman/static/js/main.bbf3c2e2.chunk.js.map",
+    "main.js": "/cameraman/static/js/main.8ecec96c.chunk.js",
+    "main.js.map": "/cameraman/static/js/main.8ecec96c.chunk.js.map",
     "runtime-main.js": "/cameraman/static/js/runtime-main.47d0954e.js",
     "runtime-main.js.map": "/cameraman/static/js/runtime-main.47d0954e.js.map",
     "static/css/2.b198338e.chunk.css": "/cameraman/static/css/2.b198338e.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.b198338e.chunk.css",
     "static/js/2.f1a261a1.chunk.js",
     "static/css/main.7cf0670a.chunk.css",
-    "static/js/main.bbf3c2e2.chunk.js"
+    "static/js/main.8ecec96c.chunk.js"
   ]
 }
