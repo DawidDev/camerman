@@ -107,6 +107,9 @@ const Reference = () => {
         <h3>Referencje</h3>
         <Swiper 
             breakpoints={{
+                250: {
+                    slidesPerView: 1
+                },
                 480: {
                     slidesPerView: 1
                 },

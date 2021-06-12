@@ -6,6 +6,7 @@ import Incentive from '../components/Incentive'
 import HowWorking from '../components/HomePage/HowWorking'
 import Portfolio from '../components/HomePage/Portfolio'
 import Reference from '../components/HomePage/Reference'
+import Contact from '../components/HomePage/Contact'
 
 const Home = () => {
     return ( 
@@ -17,6 +18,7 @@ const Home = () => {
             <Portfolio />
             <Incentive type="offer"/>
             <Reference />
+            <Contact />
         </>
      );
 }

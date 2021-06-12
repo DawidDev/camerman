@@ -15,6 +15,7 @@ const App = () => {
        <Navigation />
        <Content/>
      </Router>
+     <Footer />
     </>
    );
 }
