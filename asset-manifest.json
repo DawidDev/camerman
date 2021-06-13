@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/camerman/static/css/main.7cf0670a.chunk.css",
-    "main.js": "/camerman/static/js/main.b788cba6.chunk.js",
-    "main.js.map": "/camerman/static/js/main.b788cba6.chunk.js.map",
-    "runtime-main.js": "/camerman/static/js/runtime-main.0d6a3079.js",
-    "runtime-main.js.map": "/camerman/static/js/runtime-main.0d6a3079.js.map",
+    "main.css": "/camerman/static/css/main.6f0e15e0.chunk.css",
+    "main.js": "/camerman/static/js/main.b26d5884.chunk.js",
+    "main.js.map": "/camerman/static/js/main.b26d5884.chunk.js.map",
+    "runtime-main.js": "/camerman/static/js/runtime-main.c0464a45.js",
+    "runtime-main.js.map": "/camerman/static/js/runtime-main.c0464a45.js.map",
     "static/css/2.b198338e.chunk.css": "/camerman/static/css/2.b198338e.chunk.css",
-    "static/js/2.fc03bebc.chunk.js": "/camerman/static/js/2.fc03bebc.chunk.js",
-    "static/js/2.fc03bebc.chunk.js.map": "/camerman/static/js/2.fc03bebc.chunk.js.map",
-    "static/js/3.5f32eb18.chunk.js": "/camerman/static/js/3.5f32eb18.chunk.js",
-    "static/js/3.5f32eb18.chunk.js.map": "/camerman/static/js/3.5f32eb18.chunk.js.map",
+    "static/js/2.15f0196c.chunk.js": "/camerman/static/js/2.15f0196c.chunk.js",
+    "static/js/2.15f0196c.chunk.js.map": "/camerman/static/js/2.15f0196c.chunk.js.map",
+    "static/js/3.502308c0.chunk.js": "/camerman/static/js/3.502308c0.chunk.js",
+    "static/js/3.502308c0.chunk.js.map": "/camerman/static/js/3.502308c0.chunk.js.map",
     "index.html": "/camerman/index.html",
     "static/css/2.b198338e.chunk.css.map": "/camerman/static/css/2.b198338e.chunk.css.map",
-    "static/css/main.7cf0670a.chunk.css.map": "/camerman/static/css/main.7cf0670a.chunk.css.map",
-    "static/js/2.fc03bebc.chunk.js.LICENSE.txt": "/camerman/static/js/2.fc03bebc.chunk.js.LICENSE.txt",
+    "static/css/main.6f0e15e0.chunk.css.map": "/camerman/static/css/main.6f0e15e0.chunk.css.map",
+    "static/js/2.15f0196c.chunk.js.LICENSE.txt": "/camerman/static/js/2.15f0196c.chunk.js.LICENSE.txt",
     "static/media/background.fb9f19a0.jpg": "/camerman/static/media/background.fb9f19a0.jpg",
     "static/media/jumbutron-1.3494098a.jpg": "/camerman/static/media/jumbutron-1.3494098a.jpg",
     "static/media/jumbutron-2.1daf8bc6.jpg": "/camerman/static/media/jumbutron-2.1daf8bc6.jpg",
@@ -21,10 +21,10 @@
     "static/media/me-2.fa7a0df3.jpg": "/camerman/static/media/me-2.fa7a0df3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d6a3079.js",
+    "static/js/runtime-main.c0464a45.js",
     "static/css/2.b198338e.chunk.css",
-    "static/js/2.fc03bebc.chunk.js",
-    "static/css/main.7cf0670a.chunk.css",
-    "static/js/main.b788cba6.chunk.js"
+    "static/js/2.15f0196c.chunk.js",
+    "static/css/main.6f0e15e0.chunk.css",
+    "static/js/main.b26d5884.chunk.js"
   ]
 }
