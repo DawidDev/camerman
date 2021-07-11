@@ -31,7 +31,7 @@ const MainContainer = styled.div`
 
 const HowWorking = () => {
     return ( 
-        <MainContainer>
+        <MainContainer name="how-working">
             <div className="block">
                 <h3>Jak pracuje</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae ullamcorper nibh. Cras posuere dignissim lorem, a lacinia quam viverra non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sit amet tincidunt nibh, in euismod elit. Aliquam quis lacus fermentum, dictum massa et, pharetra lacus. </p>

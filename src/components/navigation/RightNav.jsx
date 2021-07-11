@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 
 import {NavLink} from 'react-router-dom'
 
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Ul = styled.ul`
 list-style: none;
@@ -57,17 +58,38 @@ button {
 }
 `
 
-const RightNav = ({open}) => {
-    return ( 
+const RightNav = ({open, close}) => {
+
+    // Handle closing menu. Function from upper component. 
+    const closeMenuFnk = () => { close() }
+
+    const fnk = (nameContainer) => { 
+        setTimeout( function(){
+            scroller.scrollTo(nameContainer, {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart',
+                offset: nameContainer === "start-position" ? 0 : -70,
+              });
+        }, 300 ) 
+     }
+
+     const clickFnk = (nameContainer) => {
+        fnk(nameContainer)
+        closeMenuFnk()
+     }
+
+   return ( 
             <Ul open={open}>
-               <li><NavLink to="/" exact={true}>Home</NavLink></li>
-               <li>O mnie</li>
-               <li>Jak pracuje</li>
-               <li>Portfolio</li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "start-position")}>Home</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "about-me")} >O mnie</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "how-working")} >Jak pracuje</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "portfolio")}>Portfolio</NavLink></li>
                <li><NavLink to="/offer-and-price" exact={true}>Oferta i cennik</NavLink></li>
-               <li><button>Kontakt</button></li>
+               <li><button onClick={clickFnk.bind(this, "contact")}><NavLink to="/" exact={true}>Kontakt</NavLink></button></li>
         </Ul>
      );
 }
  
 export default RightNav;
+

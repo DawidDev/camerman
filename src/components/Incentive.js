@@ -2,6 +2,8 @@ import React from 'react';
 
 import styled from 'styled-components';
 
+import {animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 import background from '../images/background.jpg'
 
 const MainContainer = styled.div`
@@ -70,14 +72,17 @@ const MainContainer = styled.div`
     }
 `
 
-const ContactIncentive = (
-    <>
+const ContactIncentive = ({scrollToContactFnk}) => {
+
+    return ( 
+        <>
         <div className="block">
             <p>Nagrajmy piękne chwile z twojego życia</p>
-            <button>Kontakt</button>
+            <button  onClick={scrollToContactFnk.bind(this, "contact")}>Kontakt</button>
         </div>
-    </>
-)
+        </>
+    );
+}
 
 const OfferIncentive = (
     <>
@@ -90,7 +95,17 @@ const OfferIncentive = (
 
 const Incentive = ({type}) => {
 
-    const whatReturn = type === "contact" ? ContactIncentive : OfferIncentive;
+    const scrollContact = (nameContainer) => { 
+        setTimeout( function(){
+            scroller.scrollTo(nameContainer, {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart',
+                offset: nameContainer === "start-position" ? 0 : -70,
+              });
+        }, 300 ) 
+     }
+    const whatReturn = type === "contact" ? <ContactIncentive scrollToContactFnk={scrollContact}/> : OfferIncentive;
 
     return ( 
         <MainContainer typeBackground={type}>

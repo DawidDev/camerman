@@ -131,7 +131,7 @@ const Jumbutron = ({type}) => {
     )
 
     return ( 
-        <ContaineraJumbutron typeBackground={type}>
+        <ContaineraJumbutron typeBackground={type} name="start-position">
             <MainContainer>
                 {type === "homePage" ? homePage : offerPage}
             </MainContainer>

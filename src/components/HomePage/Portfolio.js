@@ -47,7 +47,7 @@ const MainContainer = styled.div`
 
 const Portfolio = () => {
     return ( 
-        <MainContainer>
+        <MainContainer name="portfolio">
             <h3>Portfolio</h3>
             <div className="main-block">
                 <div className="row">

@@ -291,7 +291,7 @@ const Contact = () => {
     console.log(typeForm)
 
     return ( 
-        <MainContainer>
+        <MainContainer name="contact">
             <div className="block">
                 <h3>Kontakt</h3>
                 <div className="block-buttons">

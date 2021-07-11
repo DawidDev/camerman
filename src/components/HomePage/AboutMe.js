@@ -97,7 +97,7 @@ const AboutMe = () => {
     console.log(ReadMore)
     return ( 
         <>
-            <MainContainer readMore={ReadMore}>
+            <MainContainer readMore={ReadMore} name="about-me">
                 <div className="block-1"> 
                     <img src={MeImg1} alt=""/>
                     <h4>About me</h4>
