@@ -78,7 +78,7 @@ const MainContainer = styled.div`
             width: auto;
             height: auto;
             padding: 0;
-            transform: translateY(-100%);
+            transform: translateY(-20%);
             margin-left: 20px;
 
             i {
@@ -89,7 +89,7 @@ const MainContainer = styled.div`
         }
 
         .header-block {
-            transform: translateY(60%);
+            transform: translateY(40%);
 
             h1 {
                 font-size: 50px;
@@ -111,8 +111,8 @@ const Jumbutron = ({type}) => {
                 <i><FaYoutube /></i>
             </div>
             <div className="header-block">
-                <h1>Camerman Name</h1>
-                <h3>Camerman</h3>
+                <h1>Imię Nazwisko</h1>
+                <h3>Kamerzysta</h3>
             </div>
         </>
     )

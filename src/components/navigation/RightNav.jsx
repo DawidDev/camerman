@@ -81,7 +81,7 @@ const RightNav = ({open, close}) => {
 
    return ( 
             <Ul open={open}>
-               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "start-position")}>Home</NavLink></li>
+               <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "start-position")}>Start</NavLink></li>
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "about-me")} >O mnie</NavLink></li>
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "how-working")} >Jak pracuje</NavLink></li>
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "portfolio")}>Portfolio</NavLink></li>

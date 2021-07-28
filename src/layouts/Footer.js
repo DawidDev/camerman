@@ -35,7 +35,7 @@ const Footer = () => {
                 <i><FaFacebookF /></i>
                 <i><FaYoutube /></i>
             </div>
-            <p>NAME SURNAME</p>
+            <p>Imię Nazwisko</p>
         </MainContainer>
      );
 }

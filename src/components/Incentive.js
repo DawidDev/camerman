@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {NavLink} from 'react-router-dom'
 
 import background from '../images/background.jpg'
 
@@ -52,6 +53,11 @@ const MainContainer = styled.div`
             float: right;
             height: 40px;
             width: 120px;
+
+            .navLink {
+                color: #fff;
+                text-decoration: none;
+            }
         }
 
         button:hover {
@@ -84,14 +90,30 @@ const ContactIncentive = ({scrollToContactFnk}) => {
     );
 }
 
-const OfferIncentive = (
+const OfferIncentive = () =>{
+    // Obsłua scroll po przejściu do strony OfferPage
+    const fnk = (nameContainer) => { 
+        setTimeout( function(){
+            scroller.scrollTo(nameContainer, {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart',
+                offset: nameContainer === "start-position" ? 0 : -70,
+              });
+        }, 300 ) 
+     }
+
+     const clickFnk = (nameContainer) => {
+        fnk(nameContainer)
+     }
+    return(
     <>
         <div className="block">
             <p>Sprawdź moją ofertę i cennik</p>
-            <button>Sprawdź</button>
+            <button><NavLink className="navLink" to="/offer-and-price" exact={true} onClick={clickFnk.bind(this, "offer-price")}>Sprawdź</NavLink></button>
         </div>
     </>
-)
+)}
 
 const Incentive = ({type}) => {
 
@@ -105,7 +127,7 @@ const Incentive = ({type}) => {
               });
         }, 300 ) 
      }
-    const whatReturn = type === "contact" ? <ContactIncentive scrollToContactFnk={scrollContact}/> : OfferIncentive;
+    const whatReturn = type === "contact" ? <ContactIncentive scrollToContactFnk={scrollContact}/> : <OfferIncentive />;
 
     return ( 
         <MainContainer typeBackground={type}>

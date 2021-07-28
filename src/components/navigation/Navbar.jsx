@@ -34,7 +34,7 @@ const Navbar = () => {
   
     return ( 
        <Nav>
-           <div className="logo">Name Surname</div>
+           <div className="logo">Imię Nazwisko</div>
            <Burger />
        </Nav>
      );
