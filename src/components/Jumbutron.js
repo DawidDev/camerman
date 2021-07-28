@@ -125,7 +125,7 @@ const Jumbutron = ({type}) => {
             <i><FaYoutube /></i>
         </div>
         <div className="header-block">
-            <h1>Offer and price</h1>
+            <h1>Oferta i cennik</h1>
         </div>
     </>
     )
