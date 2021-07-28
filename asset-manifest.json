@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/camerman/static/css/main.6f0e15e0.chunk.css",
-    "main.js": "/camerman/static/js/main.b6d6c13a.chunk.js",
-    "main.js.map": "/camerman/static/js/main.b6d6c13a.chunk.js.map",
+    "main.js": "/camerman/static/js/main.fce854c4.chunk.js",
+    "main.js.map": "/camerman/static/js/main.fce854c4.chunk.js.map",
     "runtime-main.js": "/camerman/static/js/runtime-main.c0464a45.js",
     "runtime-main.js.map": "/camerman/static/js/runtime-main.c0464a45.js.map",
     "static/css/2.b198338e.chunk.css": "/camerman/static/css/2.b198338e.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.b198338e.chunk.css",
     "static/js/2.ef88082e.chunk.js",
     "static/css/main.6f0e15e0.chunk.css",
-    "static/js/main.b6d6c13a.chunk.js"
+    "static/js/main.fce854c4.chunk.js"
   ]
 }
