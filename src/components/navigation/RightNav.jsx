@@ -85,7 +85,7 @@ const RightNav = ({open, close}) => {
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "about-me")} >O mnie</NavLink></li>
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "how-working")} >Jak pracuje</NavLink></li>
                <li><NavLink to="/" exact={true} onClick={clickFnk.bind(this, "portfolio")}>Portfolio</NavLink></li>
-               <li><NavLink to="/offer-and-price" exact={true}>Oferta i cennik</NavLink></li>
+               <li><NavLink to="/offer-and-price" exact={true} onClick={clickFnk.bind(this, "offer-price")}>Oferta i cennik</NavLink></li>
                <li><button onClick={clickFnk.bind(this, "contact")}><NavLink to="/" exact={true}>Kontakt</NavLink></button></li>
         </Ul>
      );

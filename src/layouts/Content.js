@@ -10,7 +10,7 @@ const Content = () => {
     return ( 
             <Switch>
                 <Route path="/" exact component={Home}/>
-                <Route path="/offer-and-price" component={Offer}/>
+                <Route path="/offer-and-price" exact component={Offer}/>
             </Switch>
      );
 }

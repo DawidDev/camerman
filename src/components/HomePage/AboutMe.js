@@ -94,7 +94,9 @@ const MainContainer = styled.div`
 const AboutMe = () => {
 
     const [ReadMore, setReadMore] = useState(false);
-    console.log(ReadMore)
+    const titleButton = ReadMore ? "Pokaż mniej" : "Czytaj więcej";
+
+    
     return ( 
         <>
             <MainContainer readMore={ReadMore} name="about-me">
@@ -103,7 +105,7 @@ const AboutMe = () => {
                     <h4>About me</h4>
                     <div className="column-txt">
                         <p className="read-more-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae ullamcorper nibh. Cras posuere dignissim lorem, a lacinia quam viverra non.  <span className="read-more-target"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sit amet tincidunt nibh, in euismod elit. Aliquam quis lacus fermentum, dictum massa et, pharetra lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis a velit posuere, pharetra dolor viverra, venenatis lectus. Phasellus at bibendum mi. Duis eu felis dictum, luctus magna eget, cursus magna. Nam consectetur faucibus sapien, vitae luctus dui facilisis at.</span> </p>
-                        <button onClick={setReadMore.bind(this, !ReadMore)}>Read more</button>
+                        <button onClick={setReadMore.bind(this, !ReadMore)}>{titleButton}</button>
                     </div>
                 </div>
                 <div className="block-2">

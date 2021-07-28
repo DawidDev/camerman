@@ -42,6 +42,7 @@ const MainContainer = styled.div`
 
         .description-other {
             width: 100%;
+            margin-bottom: 0;
 
             h5 {
                 font-size: 28px;
